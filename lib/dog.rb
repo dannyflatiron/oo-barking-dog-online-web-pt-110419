@@ -9,6 +9,9 @@ class Dog
 
   def bark=(dogs_bark)
   end
+
+  def bark
+  end
 end
 
 fido = Dog.new
