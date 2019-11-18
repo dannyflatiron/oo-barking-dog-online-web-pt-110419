@@ -12,7 +12,7 @@ class Dog
   end
 
   def bark
-     return @bark
+     p @bark
   end
 end
 
