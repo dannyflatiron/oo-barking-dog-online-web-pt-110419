@@ -6,7 +6,16 @@ class Dog
   def name
     @name
   end
+
+  def bark=(dogs_bark)
+    @bark = dogs_bark
+  end
+
+  def bark
+    @bark
+  end
 end
 
 fido = Dog.new
 fido.name = ("fido")
+fido.bark = ("woof!")
