@@ -12,7 +12,7 @@ class Dog
   end
 
   def bark
-     puts @bark
+     return @bark
   end
 end
 
