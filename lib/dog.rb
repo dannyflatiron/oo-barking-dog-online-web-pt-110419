@@ -8,5 +8,5 @@ class Dog
   end
 end
 
-fido = Dog.new
-fida.name = ("fido")
+fida = Dog.new
+fida.name = ("fida")
